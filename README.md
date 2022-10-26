@@ -1,9 +1,6 @@
 <h1 align="center">Hi 👋, I'm Maruan</h1>
-<h3 align="center">A passionate Full-Stack developer, who loves creating outstanding digital experiences. Dedicated to creating web applications that are accessible, appealing, and practical.</h3>
+<h3 align="center">Software Developer for Odoo</h3>
 
-- 🌱 I’m currently learning **Java, ReactJS and more Ruby!😊**
-
-- 👨‍💻 All of my projects are available at [maruanaguerdouh.me](maruanaguerdouh.me)
 
 - 📫 How to reach me **maruan.mx@gmail.com**
 
