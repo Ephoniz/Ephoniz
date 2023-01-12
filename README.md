@@ -63,18 +63,6 @@ hobbies: ["Gaming", "Cinema", "Anime", "Music", "Sports"]
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma" width="45" height="45"/>   
 </p>
 
-<h2 align="center"> 📈 &nbsp;My GitHub History!</h2>
-<div  align="center">
-  <a href="https://github.com/thepiyushmalhotra">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=thepiyushmalhotra&theme=noctis_minimus&show_icons=true" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thepiyushmalhotra&theme=noctis_minimus&layout=compact" />
-  </a>
-  
-  ![Snake animation](https://github.com/thepiyushmalhotra/thepiyushmalhotra/blob/output/github-contribution-grid-snake.svg)
-</div>
-
-
-
  <p align="center">
   <img src= "https://media.tenor.com/oiYL8iyWwmkAAAAC/anime-jujutsu-kaisen.gif">
 </p>
