@@ -1,23 +1,22 @@
+<h1 align="center">
+  Welcome to my profle.
+</h1>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:c61cff,100:ff40cc&text=Hey%20there!&height=100&section=header"/>
+  <img src= "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-Kuzmb5eC1WE%2FWpL8unJ2daI%2FAAAAAAAAAfw%2F_R1lVdiYjwINPCdczxVVqMrbuUiIEZSvwCLcBGAs%2Fs1600%2F20th-century-boys-5.jpg&f=1&nofb=1&ipt=9538a8b6ec2130b777edd649f6c41481ec2a8ff460060d5ebadcf3234cb12e9e&ipo=images">
 </p>
 
-
 <h1 align="center">
-  Let's Connect and have a Chat!💬
+  Contact me in:
 </h1>
 
 <p align="center">
 <a href="https://www.linkedin.com/in/thepiyushmalhotra/">
-  <img height="50" src="https://www.edigitalagency.com.au/wp-content/uploads/new-linkedin-logo-white-black-png.png"/>
+  <img height="50" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmyclouddoor.com%2Fwp-content%2Fuploads%2F2019%2F11%2FLinkedin-logo.png&f=1&nofb=1&ipt=4ea67d54c528ddc024b3122d7a248e2ac6915683616f5bc91190daf50a79c889&ipo=images"/>
 </a>
 <a href="mailto:maruan.mx@gmail.com">
-  <img height="50" src="https://www.pngkey.com/png/full/14-143562_gmail-logo-png-gmail-logo-black-and-white.png"/>
+  <img height="50" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rightclickcomputersolutions.com%2Fwp-content%2Fuploads%2F2018%2F05%2FGmail_logo.max-2800x2800.png&f=1&nofb=1&ipt=8ca1b11bf948453dd865c4f85eaa0f4b09c6a7699187174ef7932fae1518520d&ipo=images"/>
 </a>
-  
- <p align="center">
-  <img src= "https://pa1.narvii.com/6389/7957841f800d78fb603dccd308f34c9182685f08_hq.gif">
-</p>
 
 <h2 align="center"> 👨🏻‍💻 &nbsp;A Little Bit About Me and My Interests</h2>
 
@@ -64,9 +63,5 @@ hobbies: ["Gaming", "Cinema", "Anime", "Music", "Sports"]
 </p>
 
  <p align="center">
-  <img src= "https://media.tenor.com/oiYL8iyWwmkAAAAC/anime-jujutsu-kaisen.gif">
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:c61cff,100:ff40cc&height=100&section=footer"/>
+  <img src= "https://i.pinimg.com/474x/41/95/77/419577c13392fac6fea4490c5de6e3e3--manga-comics-st-century.jpg">
 </p>
