@@ -112,8 +112,7 @@
                       additive="sum"/>
     
     <!-- External PNG Reference Implementation -->
-    <!-- CRITICAL: Replace href with your Thousand Sunny PNG URL -->
-    <image href="https://static.wikia.nocookie.net/five-world-war/images/e/ec/Thousand-sunny.png" 
+    <image href="https://i.pinimg.com/1200x/bb/b5/18/bbb518b27c9b13ef08453efbc3c675ac.jpg" 
            x="320" 
            y="220" 
            width="160" 
