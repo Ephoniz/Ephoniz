@@ -1,0 +1,166 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Gradient System Restoration: Original Visual Fidelity -->
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE4B5;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#006994;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0099CC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003366;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="sunGradient">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Sky Background Layer: Pristine Gradient Implementation -->
+  <rect width="800" height="250" fill="url(#skyGradient)"/>
+  
+  <!-- Solar Element with Rotation Animation -->
+  <g transform="translate(650, 80)">
+    <circle r="40" fill="url(#sunGradient)">
+      <animate attributeName="r" values="40;42;40" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Sun Ray System -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="20s" repeatCount="indefinite"/>
+      <path d="M 0,-50 L 0,-60" stroke="#FFD700" stroke-width="3"/>
+      <path d="M 35.4,-35.4 L 42.4,-42.4" stroke="#FFD700" stroke-width="3"/>
+      <path d="M 50,0 L 60,0" stroke="#FFD700" stroke-width="3"/>
+      <path d="M 35.4,35.4 L 42.4,42.4" stroke="#FFD700" stroke-width="3"/>
+      <path d="M 0,50 L 0,60" stroke="#FFD700" stroke-width="3"/>
+      <path d="M -35.4,35.4 L -42.4,42.4" stroke="#FFD700" stroke-width="3"/>
+      <path d="M -50,0 L -60,0" stroke="#FFD700" stroke-width="3"/>
+      <path d="M -35.4,-35.4 L -42.4,-42.4" stroke="#FFD700" stroke-width="3"/>
+    </g>
+  </g>
+  
+  <!-- Cloud Layer System: Dual-Speed Implementation -->
+  <g opacity="0.7">
+    <ellipse cx="150" cy="50" rx="40" ry="20" fill="white">
+      <animate attributeName="cx" values="150;850;-50;150" dur="60s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="130" cy="55" rx="35" ry="18" fill="white">
+      <animate attributeName="cx" values="130;830;-70;130" dur="60s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="170" cy="55" rx="35" ry="18" fill="white">
+      <animate attributeName="cx" values="170;870;-30;170" dur="60s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  
+  <g opacity="0.6">
+    <ellipse cx="500" cy="80" rx="45" ry="22" fill="white">
+      <animate attributeName="cx" values="500;900;-100;500" dur="80s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="475" cy="85" rx="38" ry="20" fill="white">
+      <animate attributeName="cx" values="475;875;-125;475" dur="80s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="525" cy="85" rx="38" ry="20" fill="white">
+      <animate attributeName="cx" values="525;925;-75;525" dur="80s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  
+  <!-- Ocean Base Layer -->
+  <rect y="250" width="800" height="150" fill="url(#oceanGradient)"/>
+  
+  <!-- Wave Layer 1: Background Waves - Full Restoration -->
+  <path d="M0,280 Q100,260 200,280 T400,280 T600,280 T800,280 L800,400 L0,400 Z" 
+        fill="#0099CC" opacity="0.6">
+    <animate attributeName="d" 
+             values="M0,280 Q100,260 200,280 T400,280 T600,280 T800,280 L800,400 L0,400 Z;
+                     M0,280 Q100,300 200,280 T400,280 T600,280 T800,280 L800,400 L0,400 Z;
+                     M0,280 Q100,260 200,280 T400,280 T600,280 T800,280 L800,400 L0,400 Z"
+             dur="4s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Wave Layer 2: Middle Waves - Enhanced Definition -->
+  <path d="M0,300 Q150,280 300,300 T600,300 T900,300 L900,400 L0,400 Z" 
+        fill="#006994" opacity="0.7">
+    <animate attributeName="d" 
+             values="M0,300 Q150,280 300,300 T600,300 T900,300 L900,400 L0,400 Z;
+                     M0,300 Q150,320 300,300 T600,300 T900,300 L900,400 L0,400 Z;
+                     M0,300 Q150,280 300,300 T600,300 T900,300 L900,400 L0,400 Z"
+             dur="3.5s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- External PNG Boat Integration Container -->
+  <g id="boat-container">
+    <!-- Compound Animation Stack -->
+    <animateTransform attributeName="transform" 
+                      type="rotate" 
+                      values="0,400,280;-3,400,280;3,400,280;0,400,280" 
+                      dur="4s" 
+                      repeatCount="indefinite"/>
+    
+    <animateTransform attributeName="transform" 
+                      type="translate" 
+                      values="0,0;20,0;0,0;-20,0;0,0" 
+                      dur="8s" 
+                      repeatCount="indefinite"
+                      additive="sum"/>
+    
+    <animateTransform attributeName="transform" 
+                      type="translate" 
+                      values="0,0;0,-5;0,0;0,5;0,0" 
+                      dur="3s" 
+                      repeatCount="indefinite"
+                      additive="sum"/>
+    
+    <!-- External PNG Reference Implementation -->
+    <!-- CRITICAL: Replace href with your Thousand Sunny PNG URL -->
+    <image href="https://static.wikia.nocookie.net/five-world-war/images/e/ec/Thousand-sunny.png" 
+           x="320" 
+           y="220" 
+           width="160" 
+           height="100" 
+           preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  
+  <!-- Wave Layer 3: Foreground Waves - Premium Quality -->
+  <path d="M0,320 Q100,300 200,320 T400,320 T600,320 T800,320 L800,400 L0,400 Z" 
+        fill="#004466" opacity="0.8">
+    <animate attributeName="d" 
+             values="M0,320 Q100,300 200,320 T400,320 T600,320 T800,320 L800,400 L0,400 Z;
+                     M0,320 Q100,340 200,320 T400,320 T600,320 T800,320 L800,400 L0,400 Z;
+                     M0,320 Q100,300 200,320 T400,320 T600,320 T800,320 L800,400 L0,400 Z"
+             dur="3s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Seagull Animation Elements -->
+  <g>
+    <path d="M 100,100 Q 110,95 120,100" fill="none" stroke="black" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="d" 
+               values="M 100,100 Q 110,95 120,100;
+                       M 100,100 Q 110,90 120,100;
+                       M 100,100 Q 110,95 120,100"
+               dur="2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" 
+                        type="translate" 
+                        values="0,0;100,20;200,0;100,-20;0,0" 
+                        dur="20s" 
+                        repeatCount="indefinite"
+                        additive="sum"/>
+    </path>
+  </g>
+  
+  <g>
+    <path d="M 200,120 Q 210,115 220,120" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round">
+      <animate attributeName="d" 
+               values="M 200,120 Q 210,115 220,120;
+                       M 200,120 Q 210,110 220,120;
+                       M 200,120 Q 210,115 220,120"
+               dur="2.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" 
+                        type="translate" 
+                        values="0,0;150,30;300,0;150,-30;0,0" 
+                        dur="25s" 
+                        repeatCount="indefinite"
+                        additive="sum"/>
+    </path>
+  </g>
+</svg>
